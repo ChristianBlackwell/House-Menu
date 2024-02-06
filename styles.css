@@ -1,0 +1,77 @@
+* {
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+  font-size: 36px; /* Adjust the font size to your liking */
+  color: #4caf50; /* Green color for emphasis */
+  margin-bottom: 10px; /* Add some bottom margin for spacing */
+  text-transform: uppercase; /* Convert text to uppercase */
+  letter-spacing: 2px; /* Add letter spacing for a stylish look */
+}
+
+body {
+  background-image: url(images/menu-background.jpg);
+  margin: 0; /* Reset default body margin */
+  font-family: "Rubik", sans-serif; /* Add a custom font for consistency */
+}
+
+form {
+  background-color: rgba(
+    255,
+    255,
+    255,
+    0.8
+  ); /* Slightly increase opacity for better readability */
+  padding: 10px;
+  margin: 10px auto;
+  max-width: 400px;
+  border-radius: 10px;
+  border: 2px solid #4caf50;
+}
+
+/* Style the dropdown boxes */
+select {
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 5px;
+  border: 1px solid #4caf50;
+  border-radius: 5px;
+  background-color: #fff;
+  color: #333;
+}
+
+/* Style the options within the dropdown boxes */
+select option {
+  background-color: #fff; /* Set background color for options */
+  color: #333; /* Set text color for options */
+}
+
+.submission {
+  padding: 8px;
+}
+
+.menu-item {
+  padding: 6px;
+}
+
+.menu-item label {
+  font-weight: bold;
+}
+
+/* Style the selected dishes display section */
+#selectedDishesDisplay {
+  margin: 10px auto;
+  padding: 10px;
+  max-width: 400px; /* Set a maximum width */
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 10px;
+  border: 2px solid #4caf50;
+}
+
+#selectedDishesDisplay p {
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 8px;
+}
