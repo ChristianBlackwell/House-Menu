@@ -8,3 +8,6 @@ Welcome to the House Menu project! This simple web application allows you to pla
 - **Dynamic Options:** Choose from a list of predefined dishes for each day.
 - **Submission:** Submit your menu choices with a click.
 - **Display:** View the selected dishes for each day.
+
+## Try it 
+Try it out [here](https://christianblackwell.github.io/House-Menu/) in your web browser.
